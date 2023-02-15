@@ -41,6 +41,12 @@ fun Application.configureRouting() {
         getAllCheMidfielder()
         getAllCheDefenders()
         getAllCheGoalkeepers()
+        getAllTotGoalkeepers()
+        getAllTotDefenders()
+        getAllTotMidfielder()
+        getAllTotForwards()
+        getAllTotPlayers()
+        totHistory()
 
     }
 }
