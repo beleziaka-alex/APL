@@ -7,7 +7,7 @@ val h2_version: String by project
 plugins {
     kotlin("jvm") version "1.8.10"
     id("io.ktor.plugin") version "2.2.3"
-                id("org.jetbrains.kotlin.plugin.serialization") version "1.8.10"
+    id("org.jetbrains.kotlin.plugin.serialization") version "1.8.10"
 }
 
 group = "com.example"
@@ -35,6 +35,6 @@ dependencies {
     implementation("org.jetbrains.exposed:exposed-dao:$exposed_version")
     implementation("org.jetbrains.exposed:exposed-jdbc:$exposed_version")
     implementation("com.h2database:h2:$h2_version")
-    implementation ("com.zaxxer:HikariCP:3.4.2")
-    implementation ("mysql:mysql-connector-java:8.0.19")
+    implementation("com.zaxxer:HikariCP:3.4.2")
+    implementation("mysql:mysql-connector-java:8.0.19")
 }
